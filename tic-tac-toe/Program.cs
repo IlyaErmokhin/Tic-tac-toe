@@ -120,7 +120,7 @@ namespace TicTacToe
 
             if (GameCheck)
                 Console.WriteLine(" " + player + " player " + " won!");
-            else if (step == 9)
+            else if (step == 8)
             {
                 GameCheck = true;
                 Console.WriteLine(" It's a draw!");
